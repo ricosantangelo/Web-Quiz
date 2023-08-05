@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 id='timer'></h2>
+    </header>
+    <div id="start-screen">
+        <h1>Web Quiz</h1>
+        <button id="start-button">Start</button>
+    </div>
+    <div id="question-container">
+        <h2 id="question">Question 1</h2>
+        <button id="option1">Option 1</button>
+        <button id="option2">Option 2</button>
+        <button id="option3">Option 3</button>
+        <button id="option4">Option 4</button>
+        <h3 id="result"></h3>
+    </div>
+    <div id="end-screen">
+        <h1>Game Over!</h1>
+        <p>Refresh to try again</p>
+        <button id="record-score">Record Score</button>
+    </div>
+    <button id="view-scores">View Scores</button>
+<div id="scoreboard" style="display: none;">
+    <h1>High Scores</h1>
+    <ul id="scores-list">
+    </ul>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
