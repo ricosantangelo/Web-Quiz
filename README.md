@@ -14,7 +14,7 @@ Clone this repo and open index.html in your browser. Test your zoology knowledge
 
 Live link to the project
 
-https://ricosantangelo.github.io/web-quiz/
+https://ricosantangelo.github.io/Web-Quiz/
 
 Screenshot
 
